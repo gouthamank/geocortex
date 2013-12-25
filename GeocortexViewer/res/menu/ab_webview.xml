@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-
+	<item
+	    android:id="@+id/ab_spinner_refresh"
+	    android:text="loading"
+	    android:showAsAction="always"
+	    />
+	<item
+	    android:icon="@drawable/ic_action_navigation_back"
+	    android:id="@+id/ab_btn_back"
+	    android:showAsAction="always"
+	    />
      <item
         android:icon="@drawable/ic_action_navigation_refresh"
         android:id="@+id/ab_btn_refresh"

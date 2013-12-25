@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:background="@color/links_bg"
     android:layout_height="match_parent"
     android:orientation="vertical"
      >
-	 <ImageView
-        android:id="@+id/img_logo"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerInParent="true"
-        android:scaleType="center"
-        android:scaleX="2"
-        android:scaleY="2"
-        android:src="@drawable/img_logo" />
+
     <com.afollestad.cardsui.CardListView
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/cardslist_linksmenu"
+        android:background="@color/links_bg"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    	<TextView
+    	android:id="@+id/tv_disclaimer"
+    	android:text="Developed by GISTEC using Geocortex and Esri Technology."
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginBottom="24dp"
+	    android:textColor="@color/gcv_red"
+	    android:layout_alignParentBottom="true"
+		android:textSize="12dp"/>
 </RelativeLayout>
